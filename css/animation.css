@@ -1,0 +1,12 @@
+.a1{
+	width: 100px;
+	height: 100px;
+	background-color: #000000 ;
+	position: relative;
+	animation-name: mymove;
+	animation-duration: 10s;
+}
+@keyframes mymove{
+	from{left: 0px}
+	to{left: 10px}
+}
