@@ -63,8 +63,10 @@ header{
 .menu ul li a{
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 10px 45px;
+	margin: 0px 50px;
 	color: #626262 ;
+	border-bottom: 1px solid transparent;
+	transition: .33s;
 	display: inline-block;
 
 }
@@ -89,9 +91,10 @@ header{
 /*banner end*/
 /*perfect start*/
 .perfect{
-	padding: 100px;
+	padding: 100px 0 30px;
 }
 .container2{
+	overflow: hidden;
 	width: 80%;
 	margin: 0 auto;
 	/*border: 1px solid;*/	
@@ -110,21 +113,22 @@ header{
 	font-weight: 400;	
 } 
 .c_text{
+	margin: 0;
 	line-height: 24px;
 }
 .p_link{
 	text-decoration: none;
 	display: inline-block;
+	margin-top: 45px;
 	color: #626262;
 }
 /*perfect end*/
 /*blog start*/
 .blog{
-	padding: 0 0;
+	padding: 0 0 100px;
 }
-.container3{
-	overflow: hidden;
-	width: 70%;
+.container2{
+	
 	margin: 0 auto;
 	/*border: 1px solid;*/
 
@@ -137,7 +141,7 @@ header{
 	/*border: 5px solid;*/
 }
 .b_item:nth-child(even){
-	margin-left: 63px;
+	margin-left: 6%;
 
 }
 .c_light{
@@ -176,7 +180,7 @@ header{
 }
 .s_form input{
 	font-family:  "Playfair Display", serif;
-	font-size:1 4px;
+	font-size:14px;
 	width:345px;
 	height: 45px;
 	border: none;
@@ -220,6 +224,8 @@ header{
     height: 60px;
     border: 1px solid #626262;
 	background-color: transparent;
+	cursor: pointer;
+	transition: .33s linear;
 
 }
 .load button a{
@@ -229,6 +235,10 @@ header{
 	text-decoration: none;
 	color: #626262;
 
+}
+.load button:hover{
+	background-color: #f0f0f0;
+	padding: 20px;
 }
 
 /*load end*/
@@ -240,7 +250,7 @@ footer{
 
 }
 .pages{
-	width: 36%;
+	width: 25%;
 	float: left;
 }
 .pages ul{
@@ -249,7 +259,7 @@ footer{
 	float: right;
 }
 .pages ul li{
-	padding: 0px 17px 0px;
+	padding: 0px 20px 0px;
 	display: inline-block;
 }
 .pages ul li a{
@@ -257,14 +267,14 @@ footer{
 	text-decoration: none;
 }
 .social{
-	width: 36%;
+	width: 25%;
 	float: right;
 }
 .social ul{
 	list-style: none;
 }
 .social ul li{
-	padding: 0 14px 0px;
+	padding: 0 15px 0px;
 	display: inline-block;
 }
 
